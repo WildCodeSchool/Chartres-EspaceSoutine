@@ -948,7 +948,7 @@ p{
 }
 /*ebauche media quaries header*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
 	h1{
 		font-size: 1.2em;
@@ -973,12 +973,28 @@ p{
 	}
 }
 @media screen and (min-width: 1600px) {
+
+	.carousel-inner{
+		max-height:700px;
+	}
+	.carousel-inner img{
+		width: 100%;
+		height:100%;
+	}
+	.main-carousel img {
+	 max-height:700px; 
+	 text-align:center;
+	  margin:auto; 
+	}
 	.prestation {
 		height:400px; 
   	}
   	.card {
-		height:450px;
-	} 
+		height:350px;
+	}
+	.align-btn-head{
+		margin-top: 30px;
+	}
 } 
 @media screen and (max-width: 900px) {
     .marge-presta1 {
