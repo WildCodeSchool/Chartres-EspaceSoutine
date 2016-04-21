@@ -1,0 +1,901 @@
+/*
+Theme Name: espace_soutine
+Theme URI:
+Author: PIARD Sylvian
+Author URI: 
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+/*page*/
+
+body{
+	background-color: #f1f1f1;
+}
+
+a
+{
+	font-family: "Helvetica";
+}
+
+/*navbar*/
+
+.navbar-brand{
+	font-size: 20px;
+}
+.navbar {
+	margin-bottom: 0px;
+	background-color: white;
+	border:none;
+
+}
+.gras {
+	color:#000000;
+    font-weight: bold;
+    font-size: 19px;
+}
+.survol {
+	color:black !important;
+}
+.survol:hover {
+	background-color: #17224f !important;
+	color: white !important;
+}
+.bleu {
+	background-color: #335481;
+	color: white !important;
+
+}
+.bleu:hover {
+	background-color: #17224f !important;
+	color:white !important;
+}
+
+/*header*/
+
+.header11 {
+	padding-top: 75px;
+}
+.header{
+    background-image: url("./img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 673px;
+    position:relative;
+}
+
+.black-filter
+{
+	position:absolute;
+	left:0%;
+	top:0%;
+	height:100%;
+	width:100%;
+	background-color:#000000;
+	opacity:0.6;
+}
+
+h1{
+    margin-top: 2%;
+    font-family: "Helvetica";
+    color: white;
+    font-size: 4em;
+}
+h1 span{
+    font-weight: bold;
+    color:white;
+}
+.header h2{	
+    font-family: "Helvetica";
+    color:white;
+    font-size: 2em;
+    margin-bottom: 3%;
+}
+
+#leves-lieu
+{
+	font-size:40px;
+	margin-top:25px;
+}
+
+#leves
+{
+	font-size:20px;
+}
+#leves a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.header p{
+	font-family: "Helvetica";
+    font-size: 2em;
+    color: white;
+}
+.header ul {
+	color:white;
+}
+
+.text-left
+{
+	padding:50px 0px 0px 70px;
+}
+
+.text-left h2
+{
+	line-height:5px;
+}
+
+.text-left ul li
+{
+	line-height:20px;
+	font-size:10px;
+}
+
+.align-btn-head{
+	margin-top: 100px;
+}
+.logo{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin-top: 20px;
+    padding-left: 1%;
+    margin-bottom:1em;
+}
+.logo img{
+    height: 50px;
+}
+.btn-header{
+    color:inherit;
+    background-color: transparent;
+    border:none;
+}
+.btn-header:hover{
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.scrollbtn{
+    text-align: center;
+    
+    bottom: 0;
+    color:white;
+    font-size: 50px;
+}
+.btn-header a{
+    text-decoration: none;
+    color: inherit;
+}
+.glyphicon-circle-arrow-down:hover{ 
+    opacity: 0.9;
+    color:white;
+}
+
+/*presentation*/
+
+.img_prestation{
+	padding:0;
+}
+.marge-presta1{
+	padding-right: 2.5px;
+	padding-bottom: 2.5px;
+}
+.marge-presta2{
+	padding-left: 2.5px;
+	padding-bottom: 2.5px;
+}
+.marge-presta3{
+	padding-right: 2.5px;
+	padding-top: 2.5px;
+}
+.marge-presta4{
+	padding-left: 2.5px;
+	padding-top: 2.5px;
+}
+#gpresentation h2{
+	text-align: center;
+	font-family: "Helvetica";
+	margin: 2em 0 0.5em 0;
+}
+#presentation .description{
+	margin-bottom: 2em;
+	font-family: "Helvetica";
+	text-align: justify;
+	color: #17224f;
+}
+.pic_line{
+	text-align: center;
+	margin-bottom: 3em;
+}
+.pic_line2{
+	text-align: center;
+	margin-bottom: 0;
+}
+.pic_line img{
+	width:30%;
+}
+.pic_line p{
+	text-align: center;
+	margin: 1em 0;
+	color: #335481;
+	font-weight: bold;
+}
+.pic_line2 p{
+	text-align: center;
+	margin: 1em 0;
+	color: #17224f;
+	font-weight: bold;
+}
+
+/* prestations */
+
+.prestation{
+	width: 100%;
+	height: 270px;
+	padding: 0;
+}
+.titre h2{
+	margin-top: 1.6em;
+	margin-bottom: 0;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: "Helvetica";
+}
+.img_prestation h3{
+	margin:0;
+}
+.bli{
+	margin-top: 60px;
+	margin-left: 1%;
+}
+.marge1{
+	margin: 65px 0 0 0;
+}
+.marge2{
+	margin: 0 0 10px 0;
+}
+
+.overflow h2{
+	text-align: center ;
+	font-size: 3em;
+	color: #fff;
+	margin:1%;
+}
+.textimg5{
+	height: 0;
+	margin: 0;
+	color:#fff;
+	top:40px;
+	left: 1%;
+	position: relative;
+	font-size:1.5em;
+	line-height: 1em;	
+	text-align: center;
+}
+.textimg5 img{
+	padding-bottom: 4px;
+}
+.textimg{
+	height: 0;
+	margin: 0;
+	color:#fff;
+	top:0;
+	position: relative;
+	font-size: 2em;	
+	text-align: center;
+}
+
+.overflow_text img{
+	display: inline-block;
+	line-height: 0;
+}
+
+.nbr{
+	margin: 0;
+	color:#fff;
+	top:40px;
+	left:1%;
+	position: relative;
+	font-size: 1.5em;
+	line-height: 1em;	
+	text-align: center;
+}
+.nbr img{
+	padding-bottom: 4px;
+}
+
+.bandeau
+{
+	height:70px;
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	background-color:#12122c;
+	opacity:0.8;
+}
+.overflow:hover .bandeau{
+	opacity: 0;
+}
+
+.textimg3{
+	margin: 10% 10% 0% 10%;
+}
+.textimg4{
+	height: 0;
+	color:#fff;
+	top:0;
+	position: relative;
+	font-size: 2em;	
+	text-align: center;
+}
+/*overflow*/
+.textimg:hover{
+	opacity: 1;
+}
+.overflow {
+	position: relative;
+}
+.overflow_text {
+	background-color: #828282;
+	bottom: 0;
+	color: white;
+	font-size: 1em;
+	left: 0;
+	opacity: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	text-align: justify;
+	top: 0;
+	right: 0;
+	-webkit-transition: 0.6s;
+	transition: 0.6s;
+}
+.overflow_text:hover {
+	opacity: 1;
+}
+.overflow_text:after,.overflow_text:before {
+	bottom: 1em;
+	content: '';
+	left: 1em;
+	opacity: 0;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: 0.6s 0.2s;
+	transition: 0.6s 0.2s;
+}
+.overflow_text:before {
+	border-bottom: none;
+	border-top: none;
+	left: 2em;
+	right: 2em;
+}
+.overflow_text:after {
+	border-left: none;
+	border-right: none;
+	bottom: 2em;
+	top: 2em;
+}
+.overflow_text:hover:after,.overflow_text:hover:before {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+  	transform: scale(1);
+	opacity: 1;
+}
+.overflow_text h2 {
+	margin-top: 0; 
+}
+.overflow_text ul{
+	list-style: none;
+	margin: 2% 0;
+	padding-left: 1%;
+}
+.overflow_text {
+	background-color: #12122c;
+	bottom: 0;
+	color: white;
+	font-size: 1em;
+	left: 0;
+	opacity: 0;
+	overflow: hidden;
+	padding: 0em;
+	position: absolute;
+	text-align: justify;
+	top: 0;
+	right: 0;
+	-webkit-transition: 0.6s;
+	transition: 0.6s;
+}
+.overflow_text:hover {
+	opacity: 0.8;
+}
+.overflow_text:after,.overflow_text:before {
+	bottom: 1em;
+	content: '';
+	left: 1em;
+	opacity: 0;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: 0.6s 0.2s;
+	transition: 0.6s 0.2s;
+}
+.overflow_text:before {
+	border-bottom: none;
+	border-top: none;
+	left: 2em;
+	right: 2em;
+}
+.overflow_text:after {
+	border-left: none;
+	border-right: none;
+	bottom: 2em;
+	top: 2em;
+}
+.overflow_text:hover:after,.overflow_text:hover:before {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+  	transform: scale(1);
+	opacity: 1;
+}
+.float-left {
+	float:left;
+	font-size: 19px;
+	line-height: 2.5;
+}
+.padding-left-20px{
+	padding-left: 20px;
+}
+.invite_telecharger a{
+
+	font-family: "Helvetica";
+	color: #000;
+	font-size: 2em;
+	text-decoration: none;
+}
+.invite_telecharger a:hover{
+
+	font-family: "Helvetica";
+	color: #000;
+	text-decoration: none;
+}
+.telecharger p{
+	color:#fff;
+	font-family: "Helvetica";
+
+}
+.telecharger p{
+	border:solid 1px none;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 1.5em;
+	padding:0;
+	margin: 0 10px 10px;
+	background-color: #12122c;
+}
+.telecharger a:hover{
+	text-decoration: none;
+}
+.telecharger p:hover{
+	text-decoration: none;
+	background-color: #335481;
+}
+.telecharger{
+	text-align: center;
+	}
+.dl{
+	width: 14%;
+	color:#fff;
+	padding: 10px 0;
+	background-color: #12122c;
+	font-size: 20px;
+}
+.dl:hover{
+	background-color: #335481;
+}
+.blanc {
+	background-color:white;
+	margin-top:5px;
+	padding:30px;
+}
+/*Galerie*/
+
+.galerie h2{
+	font-family: "Helvetica";
+	font-size: 3em;
+	text-align: center;
+	color: #000;
+	margin-top :1.2em;
+	margin-bottom: 0.5em;
+}
+#carousel-example-generic{
+	width: 96%;
+	margin: 0 2%;
+}
+.carousel-inner{
+	height:500px;
+}
+.carousel-inner img{
+	width: 100%;
+	height:100%;
+}
+
+/*Nous contacter*/
+
+.white
+{
+	color:#FFF;
+}
+
+.no-padding-left {
+	padding-left: 0px;
+}
+
+.gnous_contacter h2{
+	font-family: "Helvetica";
+	font-size: 3em;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top :25px;
+	margin-bottom: 1em;
+}
+.adresse{
+	margin-bottom:1em;
+}
+.adresse p span{
+	font-weight:bold;
+}
+
+.info{
+	padding-right: 2%;
+	border-right: solid 2px #bbb;
+}
+.filibus{
+	width: 100%;
+}
+.horaires{
+	margin-top: 5px;
+}
+.car{
+	width: 20px;
+	margin-right:8px;
+}
+.bus{
+	width: 22px;
+	margin-right:8px;
+}
+.info h3{
+	text-align: center;
+	margin-top: 0;
+}
+.map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* Formulaire*/ 
+
+.center {
+    text-align: center;
+}
+.right {
+    float:right;
+}
+.space {
+    margin-top: 30px;
+}
+.mail {
+    width:250px !important;
+}
+.prenom {
+}
+@media screen and (max-width: 360px) {
+
+    .right {
+        float:none;
+    }
+}
+.comment-form-author {
+    color:black;
+}
+
+.form-control {
+
+}
+.formulaire {
+
+}
+.noir {
+    color: black;
+}
+.form_padding{
+    padding: 0;
+}
+.form_padding_l{
+    padding-left: 0;
+}
+.form_padding_r{
+    padding-right: 0;
+}
+.form_padding-l2{
+    padding-left: 0;
+}
+.form_padding-r2 {
+    padding-right: 0;
+}
+@media screen and (max-width: 1199px) {
+    .form_padding-l2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .form_padding-r2 {
+        padding-left:0;
+        padding-right: 0;
+    }
+}
+
+.blue-area
+{
+	background-color:#12122c;
+	margin-top:50px;
+	padding-bottom:25px;
+}
+
+/*evenement*/
+
+.event-area
+{
+	height:auto;
+	padding:50px;
+}
+
+.event-area h2
+{
+	margin:auto;
+	text-align:center;
+	padding:25px;
+}
+
+.eventimg
+{
+	width:100%;
+}
+
+.card
+{
+	width:70%;
+	height:350px;
+	text-align:left;
+	position:relative;
+	min-height:300px;
+	background-color:#FFF;
+	margin:0 auto;
+}
+
+.card p
+{
+	font-size:20px;
+	margin:3px 0 0 0;
+
+}
+
+.containimg
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.padding
+{
+	padding:0px 10px;
+}
+
+.padding-top{
+	padding-top: 10px;
+}
+
+.boutonbas
+{
+	position:absolute;
+	bottom:0%;
+	height:35px;
+	width:100%;
+	left:0%;
+	padding:2px;
+	text-align:center;
+	background-color:#12122c;
+}
+
+.boutonbas
+{
+	font-size:20px;
+	color:#FFF;
+}
+
+.boutonbas:hover
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+.eventmidle{
+	text-align: center;
+	margin-bottom:0;
+	height: 300px;
+	border-right: solid 2px #bbb;
+	border-left: solid 2px #bbb;
+}
+.event{
+	text-align: center;
+	margin-bottom:20px;
+	height: 300px;
+}
+
+.plus{
+	margin:0 15% 3% 15%;
+}
+.plus p{
+	text-align: center;
+	color:#fff;
+	margin:0;
+	padding:0.5em 0;
+	background-color: #11163e;
+}
+.card p {
+	font-size:14px;
+}
+
+/*footer*/
+
+.pre-footer
+{
+    background-color:#D8D8D8;
+    height:50px;
+    padding:5px 10px 5px 10px;
+    color:#000000;
+}
+.soutine-footer
+{	
+	background-color: #fff;
+    color:#000000;
+    padding:10px;
+}
+.footer-part-1
+{
+    font-size: 20px;
+    font-family:"Helvetica";
+}
+.grey{
+    color:#888;
+}
+.footer-part-1 span
+{
+    color:#000;
+    font-weight: bold;
+}
+
+.footer-part-2 li{
+    display: inline-block;
+}
+
+.footer-part-2 li{
+    vertical-align: top;
+}
+.footer-part-2
+{
+    text-align: center;
+}
+p{
+    margin: 5 0 10px;
+}
+.footer-part-3 h3{
+    margin-top: 0;
+     text-align: left;
+     text-decoration: none;
+     font-size: 20px;
+     font-family: "Helvetica"
+ }
+ .footer-part-3 ul li{
+     list-style-type: none;
+ }
+ .footer-part-3 ul li a{
+     color: #000;
+ }
+.sstitre{
+    font-size: 15px;
+}
+.social{
+	text-align: left;
+ }
+.logo-mairie img{
+    width: 200px;
+}
+.logo-social img{
+	margin-top:25px;
+    height:25px;
+}
+
+.logo-social
+{
+	text-align:left;
+}
+
+.marg-footer {
+	margin: 0 0;
+}
+
+.social h3
+{
+	font-size:20px;
+}
+
+#follow_me
+{
+	margin-top:10px;
+}
+
+
+/*ebauche media quaries header*/
+
+@media screen and (max-width: 320px) {
+	.header{
+		background-size: 100%;
+
+	}
+	h1{
+		font-size: 1.2em;
+		line-height:0.5em;
+	}
+	.header h2{
+		margin:1% 0;
+		font-size:0.9em;
+	}
+	.header p{
+		margin:1% 0;
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.prestation {
+		height:400px;
+	}
+} 
+.datee {
+	text-align: left;
+	margin-top: 19% !important;
+}
+.dateebis {
+	text-align: left;
+	margin-top: 11% !important;
+}
+@media screen and (max-width: 991px) {
+	.card {
+		height: 600px;
+	}
+	.datee {
+		margin-top: 11% !important;
+	}
+}
