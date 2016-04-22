@@ -40,6 +40,9 @@
 				</div>
 			</div>
 		</div>
+		<div class="underfooter">
+				<p>Site développé par <a href="http://wildcodeschool.fr/" title="http://wildcodeschool.fr/">Wild Code School</a>.</p>
+		</div>
 		<?php wp_footer(); ?>
 		<script type ="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/anime.js"></script>
 	</body>
