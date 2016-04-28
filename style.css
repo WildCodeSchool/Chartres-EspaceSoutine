@@ -765,6 +765,7 @@ h1 span{
 	min-height:300px;
 	background-color:#FFF;
 	margin:0 auto;
+	margin-bottom:20px;
 }
 
 .card p
@@ -1036,6 +1037,14 @@ p{
 		padding-left: 0px;
 	} 
 	
+}
+@media screen and (max-width: 768px){
+		.soutine-footer, .soutine-footer h3, .logo-mairie, .logo-social{
+		text-align: center;
+	}
+	.soutine-footer ul{
+		padding-left:0;
+	}
 }
 @media screen and (max-width: 360px) {
 	.textimg4, .textimg{

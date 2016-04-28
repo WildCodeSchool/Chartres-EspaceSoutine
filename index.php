@@ -325,7 +325,7 @@
 							if($newsWithPic->have_posts()) :
 								while ($newsWithPic->have_posts() ) : $newsWithPic->the_post();
 		  						?>
-				  					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 containimg">
+				  					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 containimg">
 					  					<div class="card">
 						  					<div class="img-responsive">
 							  					<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'taille-perso' ); } 

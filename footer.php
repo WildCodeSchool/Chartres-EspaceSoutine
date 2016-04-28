@@ -26,12 +26,12 @@
 						</a>
 					</div>
 					<div class="col-xs-12 logo-social">
-						<div class="col-xs-2" style="padding-left:0px;">
+						<div class="col-xs-6" style="padding-left:0px;">
 							<a href="https://www.facebook.com/villedeleves">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/facebook.png">
 							</a>
 						</div>
-						<div class="col-xs-2" style="padding-left:0px;">
+						<div class="col-xs-6" style="padding-left:0px;">
 							<a href="https://twitter.com/villedeleves">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/twitter.png">
 							</a>
